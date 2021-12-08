@@ -1,24 +1,8 @@
 {
   "protected_resources": {
-    "users": [
-      "GET",
-      "POST",
-      "PUT",
-      "PATCH",
-      "DELETE"
-    ],
-    "categories": [
-      "POST",
-      "PUT",
-      "PATCH",
-      "DELETE"
-    ],
-    "products": [
-      "POST",
-      "PUT",
-      "PATCH",
-      "DELETE"
-    ]
+    "users": ["GET", "POST", "PUT", "PATCH", "DELETE"],
+    "categories": ["POST", "PUT", "PATCH", "DELETE"],
+    "products": ["POST", "PUT", "PATCH", "DELETE"]
   },
   "users": [
     {
@@ -180,12 +164,27 @@
       "role": "User",
       "createdAt": 1615245193000,
       "modifiedAt": 1616246055000
+    },
+    {
+      "id": 11,
+      "firstName": "Bùi",
+      "lastName": "Tài",
+      "username": "buivantai",
+      "email": "vantaibui92@gmail.com",
+      "password": "L@cduonghk123",
+      "avatar": "https://robohash.org/suntisteaperiam.png?size=50x50&set=set1",
+      "gender": "Male",
+      "phone": "0968367953",
+      "birthday": "1999-05-17",
+      "role": "User",
+      "createdAt": 1638762743475,
+      "modifiedAt": 1638762743475
     }
   ],
   "categories": [
     {
       "id": 1,
-      "code": "Fruit qwe",
+      "code": "Fruit",
       "name": "Fresh fruits",
       "thumbnail": "http://localhost:3000/uploads/images/cat-1.png",
       "createdAt": 1638550076014,
@@ -224,13 +223,12 @@
       "modifiedAt": 1638550076014
     },
     {
-      "code": "Fruit asdasdfgsdf 123456789",
-      "name": "Fresh fruits qwertyuiopasdfghjkl",
+      "code": "Lạc",
+      "name": "Đậu",
       "thumbnail": "http://localhost:3000/uploads/images/cat-2.png",
-      "products": null,
-      "createdAt": 1638673863213,
-      "modifiedAt": 1638675843790,
-      "id": 8
+      "createdAt": 1638807828522,
+      "modifiedAt": 1638807828522,
+      "id": 6
     }
   ],
   "products": [
@@ -323,70 +321,15 @@
       "modifiedAt": 1619964420000
     },
     {
-      "id": 9,
-      "name": "Bread - Bistro Sour",
-      "price": 112,
-      "quantity": 77,
-      "thumbnail": "http://localhost:3000/uploads/images/product-6.jpg",
-      "status": false,
-      "category": "Fruit",
-      "createdAt": 1612357500000,
-      "modifiedAt": 1614956760000
-    },
-    {
-      "id": 10,
-      "name": "Soup - Campbells Bean Medley",
-      "price": 353,
-      "quantity": 40,
-      "thumbnail": "http://localhost:3000/uploads/images/product-7.jpg",
-      "status": false,
-      "category": "Spices",
-      "createdAt": 1615146960000,
-      "modifiedAt": 1615146960000
-    },
-    {
-      "id": 11,
-      "name": "Pork Salted Bellies",
-      "price": 442,
-      "quantity": 16,
-      "thumbnail": "http://localhost:3000/uploads/images/product-1.jpg",
-      "status": true,
-      "category": "Fruit",
-      "createdAt": 1610632995000,
-      "modifiedAt": 1615620960000
-    },
-    {
       "id": 12,
       "name": "Grapes - Black",
       "price": 893,
-      "quantity": 22,
+      "quantity": 14789,
       "thumbnail": "http://localhost:3000/uploads/images/product-7.jpg",
       "status": false,
       "category": "Spices",
       "createdAt": 1615796160000,
-      "modifiedAt": 1615796160000
-    },
-    {
-      "id": 13,
-      "name": "Nantucket - 518ml - 515151",
-      "price": 693,
-      "quantity": 4111451,
-      "thumbnail": "http://localhost:3000/uploads/images/product-8.jpg",
-      "status": false,
-      "category": "Fruit",
-      "createdAt": 1614190320000,
-      "modifiedAt": 1638612904929
-    },
-    {
-      "name": "Organic rice",
-      "price": 195,
-      "quantity": 7963,
-      "thumbnail": "http://dummyimage.com/203x100.png/ff4444/ffffff",
-      "category": "Wheal",
-      "status": true,
-      "createdAt": 1638631220101,
-      "modifiedAt": 1638631220101,
-      "id": 16
+      "modifiedAt": 1638708432665
     }
   ]
 }
